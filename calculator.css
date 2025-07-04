@@ -1,0 +1,38 @@
+:root{
+    --main-color:#1B3C53;
+    --second-color:#456882;
+    --third-color:#D2C1B6;
+    --text-color:#F9F3EF;
+}
+
+
+.calculator {
+    width: 320px;
+    background-color: var(--main-color);
+    border-radius: 20px;
+}
+
+.operation{
+    background-color: var(--text-color);
+    transition: all 0.6s ease;
+}
+
+.operation:hover{
+    background-color: var(--third-color);
+}
+button {
+    height: 60px;
+    font-size: 1.5rem;
+}
+
+#display{
+    background-color: var(--second-color);
+}
+
+#operation {
+    background-color: var(--second-color);
+    font-size: 1.2rem;
+    opacity: 0.7;
+    height:50px;
+    text-align: center;
+}
